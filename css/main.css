@@ -1,0 +1,66 @@
+form{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #2b2b2b;
+    border-radius: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+form h1{
+    color: white;
+    text-align: center;
+}
+.btn{
+    height: 45px;
+    float: left;
+    margin-left: 50px;
+    color: lightgrey;
+}
+.line{
+    height: 2px;
+    background-color: darkgreen;
+    opacity: 0;
+}
+.active .line{
+    opacity: 1;
+}
+
+.input-el{
+    width: 90%;
+    height: 45px;
+    margin-top: 20px;
+    padding-left: 15px;
+    border: none; 
+    border-radius: 30px;
+}
+.check-box{
+    width: 15px !important;
+    height: 15px !important;
+    background-color: lightgrey;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.check p{
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+    color: lightgrey;
+}
+
+form p{
+    margin-top: 40px;
+    text-align: center;
+    color: lightgray;
+}
+:invalid{
+    color:red;
+}
+button{
+    cursor: pointer;
+    background-color: darkgreen !important;
+    color: white !important;
+}
